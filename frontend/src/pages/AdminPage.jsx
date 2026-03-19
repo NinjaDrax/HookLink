@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 import { adminAPI, categoriesAPI } from '../api'
 import toast from 'react-hot-toast'
 
-const CATEGORY_ICONS = ['🔗','💻','🎨','📚','🎵','🎬','🌍','🚀','💡','🛠','📊','🤖','🎮','💰','🏋','🍕','🌱','📰','🔬','✈']
-const CATEGORY_COLORS = ['#6366f1','#8b5cf6','#ec4899','#f43f5e','#f97316','#eab308','#22c55e','#14b8a6','#06b6d4','#3b82f6']
+const CATEGORY_ICONS = ['🔗','💻','🎨','📚','🎵','🎬','🎮','🌱','🎓','🧁','🚊','📺','📷','💿','📽','🛋','🛒','🧸','🎟']
+const CATEGORY_COLORS = ['#6366f1','#8b5cf6','#f97316','#eab308','#22c55e','#14b8a6','#06b6d4','#e9edc9','#a8dadc','#ccd5ae','#f2cc8f']
 
 export default function AdminPage() {
   const [tab, setTab] = useState('links')
